@@ -1,8 +1,7 @@
 /******************************************
 
-	Polishop eCommerce HTML Template
-	Template By Harnish Design
-	www.harnishdesign.net
+	For all Discipulus of CQU © 2016 - 2017 
+
 	
 *******************************************/
 
@@ -11,6 +10,7 @@ body {background:#f8f8fa url(../image/patterns/27.png) left top repeat; color: #
 body, td, th, input, textarea, select, a {font-size:12px;}
 * { margin:0; padding:0; }
 h1 {color: #222; margin-bottom:30px; font-size: 32px; font-weight: normal; text-align:center; text-rendering:optimizelegibility; font-family:Georgia, "Times New Roman", Times, serif;}
+.add-margin{margin: 45px;}
 h2 {color: #222; font-size:15px; margin-top: 0px; margin-bottom:15px; padding:3px 0px 5px 0px; border-bottom: 1px solid #ddd; text-transform: uppercase; font-weight:normal; }
 h4 {color: #222; font-size:13px; margin-top: 0px; margin-bottom:10px; padding:3px 0px 5px 0px; font-weight:bold; }
 p {margin-top: 0px; margin-bottom: 20px; line-height:20px;}
@@ -51,7 +51,7 @@ label {cursor: pointer;}
 #language ul li, #currency ul li{ display:block; width:120px; line-height:18px; padding:2px 0;}
 #language ul li a, #currency ul li a{display:block;}
 #language ul li a b, #currency ul li a b{cursor:default; display:block;}
-#language ul li a:hover, #currency ul li a:hover{color:#D45C93;}
+#language ul li a:hover, #currency ul li a:hover{color:#256BA7;}
 
 #language span, #currency span{ position:relative; display:block;  padding:0 10px 0 10px; z-index:1014; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; -ms-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out;}
 #language span b, #currency span b{background:url(../image/bullet-d.png) right center no-repeat; padding:0 12px 0 0px;}
@@ -59,20 +59,20 @@ label {cursor: pointer;}
 #language:hover span, #currency:hover span{background:#fff; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; -ms-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out;}
 #language:hover, #currency:hover{box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.25);}
 #language img {cursor: pointer; margin-right:3px; }
-#currency:hover, #language:hover { color:#d45c93;}
+#currency:hover, #language:hover { color:#256BA7;}
 #currency a b{color: #000; text-decoration: none; }
 
 /********** Top Links **********/
 #header .links { position: relative; float:right; line-height:30px; margin-right:-10px;}
 #header .links a {display: inline-block; padding:0px 10px; color: #444;  text-decoration: none; font-size:12px; position:relative;}
 #header .links a + a:before{display:inline-block; content: "|"; clear: both; height: 0; color:#444; font-size:11px; padding-left:12px; position:absolute; left:-15px;}
-#header .links a:hover{color:#D45C93;}
+#header .links a:hover{color:#256BA7;}
 #header #welcome {color: #999999; float:left;}
 
 /********** Mini Cart  ***********/
 #header #cart { position:absolute;  line-height:25px; right:0px; top:33px;}
 #header #cart .heading {padding:0 0px 0 0px; position: relative;}
-#header #cart .heading h4 { background:#d45c93; width:32px; height:32px; float:left; margin:4px 0px 0 0; padding:0;  z-index:1012; position:relative;}
+#header #cart .heading h4 { background:#256BA7; width:32px; height:32px; float:left; margin:4px 0px 0 0; padding:0;  z-index:1012; position:relative;}
 #header #cart .heading a { text-decoration: none; font-size:14px; height:36px; color:#444; display:inline-block; background:#fff; z-index:1012; position:relative; padding:0 7px 0 2px;}
 #header #cart .heading a span { background:url('../image/bullet-d.png') right 11px no-repeat; padding-right: 12px; display:inline-block; margin-top:5px; }
 #header #cart .content { clear: both; display:none; position:absolute; padding:8px; min-height: 150px; z-index:1011; background: #FFF; width:350px; right:0; top:35px; box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.25); -webkit-box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.25);}
@@ -130,14 +130,14 @@ label {cursor: pointer;}
 #menu ul { list-style: none; margin: 0; padding:0 0 0 2px;}
 #menu > ul > li { position: relative; float: left; z-index:1010; padding:0px; }
 #menu > ul > li > a { font-size:12px; color: #fff; line-height:40px; text-decoration: none; display: block; padding:0px 10px 0px 10px; z-index: 1009; position: relative; font-weight:bold; text-transform:uppercase;}
-#menu > ul > li:hover > a {color:#fff; background:#d45c93; }
-#menu > ul > li > div { display: none; background:#fff; position:absolute; z-index:1008; padding:10px; border-top:2px solid #d45c93; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
+#menu > ul > li:hover > a {color:#fff; background:#256BA7; }
+#menu > ul > li > div { display: none; background:#fff; position:absolute; z-index:1008; padding:10px; border-top:2px solid #256BA7; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
 #menu > ul > li:hover > div.custom_block{display:table;}
 #menu > ul > li:hover > div.custom_block ul{display:table-cell;}
 
 #menu > ul > li > div > ul { display: table-cell; }
 
-#menu > ul > li.categories_hor > div { display: none; background:#fff; min-width:895px; position:absolute; z-index:1008; padding:10px 10px 0px 10px; border-top:2px solid #d45c93; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
+#menu > ul > li.categories_hor > div { display: none; background:#fff; min-width:895px; position:absolute; z-index:1008; padding:10px 10px 0px 10px; border-top:2px solid #256BA7; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
 
 #menu > ul > li.categories_hor > div > .column {position:relative; display:inline-block; width:160px; margin:0 15px 15px 0px;}
 #menu > ul > li > div > ul{position:relative; width:160px;}
@@ -145,7 +145,7 @@ label {cursor: pointer;}
 #menu > ul > li.categories_hor > div > .column > a{font-weight:bold; font-size:13px; border-bottom:1px solid #ddd; margin-bottom:5px;}
 #menu > ul > li.categories_hor > div > .column a, #menu > ul > li > div > ul li a{padding:4px 0; display:block; }
 #menu > ul > li > div > ul li a{font-size:12px;}
-#menu > ul > li.categories_hor > div > .column:hover > a{color:#d45c93;}
+#menu > ul > li.categories_hor > div > .column:hover > a{color:#256BA7;}
 #menu > ul > li.categories_hor > div > .column > div{display:block;}
 #menu > ul > li.categories_hor > div > .column:hover div{display:table; }
 #menu > ul > li.categories_hor > div > .column > div ul{display:table; padding:0;}
@@ -154,15 +154,15 @@ label {cursor: pointer;}
 #menu > ul > li ul + ul { padding-left: 20px; }
 #menu > ul > li ul > li > a {text-decoration:none; padding:4px; display:block; min-width: 150px;}
 #menu > ul > li div > ul > li > a {color:#222; }
-#menu > ul > li div > ul > li > a:hover {background:url(../image/bullet-1.png) right center no-repeat; color:#d45c93;}
+#menu > ul > li div > ul > li > a:hover {background:url(../image/bullet-1.png) right center no-repeat; color:#256BA7;}
 
-#menu > ul > li.categories > div { display: none; background:#fff; min-width:160px; position:absolute; z-index:1008; padding:10px; border-top:2px solid #d45c93; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
+#menu > ul > li.categories > div { display: none; background:#fff; min-width:160px; position:absolute; z-index:1008; padding:10px; border-top:2px solid #256BA7; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
 
 #menu > ul > li.categories > div > .column, #menu > ul > li > div > ul{position:relative;}
 #menu > ul > li.categories > div > .column + .column, #menu > ul > li > div > ul li + li{border-top:1px solid #eee;}
 #menu > ul > li.categories > div > .column a, #menu > ul > li > div > ul li a{font-size:13px; padding:7px 0; display:block;}
-#menu > ul > li.categories > div > .column:hover > a{color:#d45c93;}
-#menu > ul > li.categories > div > .column > div{display:none; position:absolute; border-top:2px solid #d45c93; background:#fff; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); z-index:1010; left:150px; top:0; padding:5px 10px;}
+#menu > ul > li.categories > div > .column:hover > a{color:#256BA7;}
+#menu > ul > li.categories > div > .column > div{display:none; position:absolute; border-top:2px solid #256BA7; background:#fff; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); z-index:1010; left:150px; top:0; padding:5px 10px;}
 #menu > ul > li.categories > div > .column:hover div{display:table; }
 #menu > ul > li.categories > div > .column:hover > div ul{display:table-cell; }
 #menu > ul > li.categories > div > .column:hover > div ul li + li{border-top:1px solid #eee;}
@@ -206,14 +206,14 @@ table.radio tr.highlight:hover td { background: #f8f6f6; cursor: pointer; }
 .pagination { border-top: 1px solid #EEEEEE; padding-top: 8px; display: inline-block; width: 100%; margin-bottom: 10px; }
 .pagination .links { float: left; }
 .pagination .links a { vertical-align:middle; display: inline-block; border: 1px solid #EEEEEE; padding: 4px 10px; text-decoration: none; color: #777; }
-.pagination .links b {vertical-align:middle; display: inline-block; border: 1px solid #d45c93; padding: 4px 10px; font-weight: normal; text-decoration: none; color: #fff; background: #d45c93; }
-.pagination .links a:hover { color:#d45c93; border: 1px solid #ccc; }
+.pagination .links b {vertical-align:middle; display: inline-block; border: 1px solid #256BA7; padding: 4px 10px; font-weight: normal; text-decoration: none; color: #fff; background: #256BA7; }
+.pagination .links a:hover { color:#256BA7; border: 1px solid #ccc; }
 .pagination .results { float: right; padding-top: 3px; }
 
 /*********** button ***********/
 
 
-a.button, input.button { cursor: pointer; color:#fff; font-size: 13px; font-weight: bold; background:#d45c93; border:none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; box-shadow:1px 1px 2px rgba(0, 0, 0, 0.25); -moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.25); -webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.25);}
+a.button, input.button { cursor: pointer; color:#fff; font-size: 13px; font-weight: bold; background:#256BA7; border:none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; box-shadow:1px 1px 2px rgba(0, 0, 0, 0.25); -moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.25); -webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.25);}
 a.button { display: inline-block; text-decoration: none; padding:7px 12px; }
 
 input.button { margin:0; padding:7px 12px; }
@@ -253,7 +253,7 @@ a.button:hover, input.button:hover { background:#444; color:#fff; -webkit-transi
 .box-product .image img { padding:0px; }
 .box-product .name a {font-size:13px; line-height:18px; text-decoration: none; display:inline-block; margin:0 auto; padding:0px; color:#333;}
 .box-product .name a:hover {text-decoration:underline;}
-.box-product .price { display: block; font-weight: bold; margin:5px 0 10px 0; padding:0 8px; color:#D45C93; font-size:13px;}
+.box-product .price { display: block; font-weight: bold; margin:5px 0 10px 0; padding:0 8px; color:#256BA7; font-size:13px;}
 .box-product .price-old { color: #F00; text-decoration: line-through; font-weight:normal; margin-right:5px; font-size:12px;}
 .box-product .price-new { font-weight: bold; }
 .box-product .rating { display: block; margin-top: 5px; }
@@ -325,7 +325,7 @@ a.button:hover, input.button:hover { background:#444; color:#fff; -webkit-transi
 .sitemap li a { padding: 5px 8px; display: block; font-weight:bold; }
 .sitemap li ul { margin-left:30px; }
 .sitemap li ul li a { font-weight:normal; }
-.sitemap li a:hover { color: #d45c93; }
+.sitemap li a:hover { color: #256BA7; }
 
 /*********** content ***********/
 #content .content { padding: 10px; overflow: auto; margin-bottom: 20px; }
@@ -366,17 +366,17 @@ a.button:hover, input.button:hover { background:#444; color:#fff; -webkit-transi
 .product-list .image { float: left; margin-right: 10px; }
 .product-list .name { margin-bottom:8px; }
 .product-list .name a { color: #555; font-weight: bold; text-decoration: none; font-size:13px; }
-.product-list .name a:hover { color:#d45c93; }
+.product-list .name a:hover { color:#256BA7; }
 .product-list .description { line-height: 15px; margin-bottom: 5px; color: #4D4D4D; }
 .product-list .rating { color: #7B7B7B; margin-bottom:5px;}
-.product-list .price {font-size:14px; font-weight: bold; color:#d45c93; margin-bottom:5px;}
+.product-list .price {font-size:14px; font-weight: bold; color:#256BA7; margin-bottom:5px;}
 .product-list .price-old { color: #F00; text-decoration: line-through; font-weight:normal; }
 .product-list .price-tax { font-size: 12px; font-weight: normal; color: #BBBBBB; }
 .product-list .cart input {padding:2px 3px; font-size:10px; height:auto; line-height:normal; text-transform:uppercase;}
 .product-list .wishlist, .product-list .compare {margin-left:10px;}
 .product-list .wishlist a{color: #333333; text-decoration: none; display:inline-block; font-size:10px; text-transform:uppercase; padding-left:16px; background: url("../image/plus.png") 0 1px no-repeat;}
 .product-list .compare a {color: #333333; text-decoration:none; display:inline-block; font-size:10px; text-transform:uppercase; padding-left:16px; background: url("../image/plus.png") 0 1px no-repeat;}
-a.wishlist:hover { color:#d45c93; }
+a.wishlist:hover { color:#256BA7; }
 
 /*********** Grid-List Icon ***********/
 .product-filter .display b { float:left; margin-right:10px;}
@@ -397,7 +397,7 @@ a.wishlist:hover { color:#d45c93; }
 .product-grid .name a:hover {text-decoration:underline;}
 .product-grid .description { display: none; }
 .product-grid .rating {  display: block; margin-top: 5px; }
-.product-grid .price { display: block; font-weight: bold; margin:5px 0 10px 0; padding:0 8px; color:#D45C93; font-size:13px; }
+.product-grid .price { display: block; font-weight: bold; margin:5px 0 10px 0; padding:0 8px; color:#256BA7; font-size:13px; }
 .product-grid .price-old {color: #F00; text-decoration: line-through; font-weight:normal; margin-right:5px; font-size:12px;}
 .product-grid .price-new { font-weight: bold; }
 .product-grid .price .price-tax { display: none; }
@@ -405,7 +405,7 @@ a.wishlist:hover { color:#d45c93; }
 .product-grid .wishlist, .product-grid .compare { margin-bottom: 3px;}
 .product-grid .wishlist a{color: #666; text-decoration: none; display:inline-block; font-size:10px; text-transform:uppercase; margin-top:10px; padding-left:16px; background: url("../image/plus.png") 0 0 no-repeat;}
 .product-grid .compare a {color: #666; text-decoration:none; display:inline-block; font-size:10px; text-transform:uppercase; padding-left:16px; background: url("../image/plus.png") 0 0 no-repeat;}
-.product-grid .wishlist a:hover, .product-grid .compare a:hover, .product-list .wishlist a:hover, .product-list .compare a:hover {color:#d45c93;}
+.product-grid .wishlist a:hover, .product-grid .compare a:hover, .product-list .wishlist a:hover, .product-list .compare a:hover {color:#256BA7;}
 
 .product-grid.style1 .name a{margin:0 0 10px 0;}
 .product-grid.style1 .name{text-align:left}
@@ -438,7 +438,7 @@ a.wishlist:hover { color:#d45c93; }
 .product-info .description {border-bottom:1px solid #eee; padding: 5px 5px 10px 5px; margin-bottom: 10px; line-height: 20px; color: #4D4D4D; font-size:13px; }
 .product-info .description span { font-weight:bold; }
 .product-info .description a { color: #4D4D4D; text-decoration: none; font-size:13px; }
-.product-info .price { overflow: auto; padding: 0px 5px 10px 5px; margin-bottom: 10px; font-size:18px; font-weight: bold; color: #d45c93; }
+.product-info .price { overflow: auto; padding: 0px 5px 10px 5px; margin-bottom: 10px; font-size:18px; font-weight: bold; color: #256BA7; }
 .product-info .price-old { color: #F00; text-decoration: line-through; font-weight:normal; }
 .product-info .price-new { }
 .product-info .price-tag{background:#d45c93 url(../image/price-tag.png) left top no-repeat; display:inline-block; height:48px; padding:0 18px 0 32px; border-radius:0px 3px 3px 0px; -moz-border-radius:0px 3px 3px 0px; -webkit-border-radius:0px 3px 3px 0px; line-height:48px; color:#fff; font-size:25px; font-weight:normal;}
@@ -459,7 +459,7 @@ a.wishlist:hover { color:#d45c93; }
 
 .product-info .cart .minimum { padding-top: 5px; font-size: 11px; color: #999; clear: both; }
 .product-info .review { color: #4D4D4D; margin-bottom: 10px; }
-.product-info .review a:hover { color: #d45c93; }
+.product-info .review a:hover { color: #256BA7; }
 .product-info .review > div { padding: 8px; background:#F4F3F3; line-height: 20px; overflow:auto; }
 .product-info .review > div > span { color: #38B0E3; }
 .product-info .review .share { overflow: auto; line-height: normal; }
