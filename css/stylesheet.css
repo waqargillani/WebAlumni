@@ -10,7 +10,7 @@ body {background:#f8f8fa url(../image/patterns/27.png) left top repeat; color: #
 body, td, th, input, textarea, select, a {font-size:12px;}
 * { margin:0; padding:0; }
 h1 {color: #222; margin-bottom:30px; font-size: 32px; font-weight: normal; text-align:center; text-rendering:optimizelegibility; font-family:Georgia, "Times New Roman", Times, serif;}
-.add-margin{margin: 45px;}
+.add-margin{margin: 45px; line-height: 90%;}
 h2 {color: #222; font-size:15px; margin-top: 0px; margin-bottom:15px; padding:3px 0px 5px 0px; border-bottom: 1px solid #ddd; text-transform: uppercase; font-weight:normal; }
 h4 {color: #222; font-size:13px; margin-top: 0px; margin-bottom:10px; padding:3px 0px 5px 0px; font-weight:bold; }
 p {margin-top: 0px; margin-bottom: 20px; line-height:20px;}
@@ -122,15 +122,15 @@ label {cursor: pointer;}
 
 /********** Menu **********/
 #menu > span, .m-menu{display:none;}
-#menu {background:#222; margin:15px 0px; height:40px; padding:0px 0px 0px 3px;}
+#menu {background:#256BA7; margin:15px 0px; height:40px; padding:0px 0px 0px 3px;}
 #menu > ul > li.home { margin:0 0 0 0px; }
 #menu > ul > li.home a { display:block; height:35px!important; line-height:35px!important; padding:5px 5px 0 5px!important; }
-#menu > ul > li.home a span { background:url(../image/home-icon.png) center center no-repeat; display:block; width:30px; height:30px; text-indent:-9999px;}
+#menu > ul > li.home a span { background:url(../image/chongda.png) center center no-repeat; display:block; width:30px; height:30px; text-indent:-9999px;}
 
 #menu ul { list-style: none; margin: 0; padding:0 0 0 2px;}
 #menu > ul > li { position: relative; float: left; z-index:1010; padding:0px; }
 #menu > ul > li > a { font-size:12px; color: #fff; line-height:40px; text-decoration: none; display: block; padding:0px 10px 0px 10px; z-index: 1009; position: relative; font-weight:bold; text-transform:uppercase;}
-#menu > ul > li:hover > a {color:#fff; background:#256BA7; }
+#menu > ul > li:hover > a {color:#fff; background:#4b85b7; }
 #menu > ul > li > div { display: none; background:#fff; position:absolute; z-index:1008; padding:10px; border-top:2px solid #256BA7; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
 #menu > ul > li:hover > div.custom_block{display:table;}
 #menu > ul > li:hover > div.custom_block ul{display:table-cell;}
@@ -170,7 +170,7 @@ label {cursor: pointer;}
 
 .breadcrumb { color: #c2c2c2; margin-bottom: 10px; text-align:center;}
 .breadcrumb a { color:#999; font-size:11px;}
-.breadcrumb a:hover { color:#D45C93 }
+.breadcrumb a:hover { color:#256ba7 }
 .success, .warning, .attention, .information { padding: 10px 10px 10px 33px; margin-bottom: 15px; color:#555555; }
 .success a { padding:3px 5px; background:#BBDF8D; margin:0px 3px; }
 .warning a { padding:3px 5px; background:#F8ACAC; margin:0px 3px; }
@@ -268,7 +268,7 @@ a.button:hover, input.button:hover { background:#444; color:#fff; -webkit-transi
 .box-product > .flexslider.style1 ul li:hover .rating{display:block;}
 
 .box-product > .flexslider.style1 ul li .cart{float:right; }
-.box-product > .flexslider.style1 ul li .cart input, .box-product > .flexslider.style1 ul li .cart a{font-size:11px; text-indent:-9999px; background:#D45C93 url(../image/cart-icon.png) center center no-repeat; width:35px; height:35px; border-radius:50%;}
+.box-product > .flexslider.style1 ul li .cart input, .box-product > .flexslider.style1 ul li .cart a{font-size:11px; text-indent:-9999px; background:#256ba7 url(../image/cart-icon.png) center center no-repeat; width:35px; height:35px; border-radius:50%;}
 .box-product > .flexslider.style1 ul li .cart input:hover, .box-product > .flexslider.style1 ul li .cart a:hover{background-color:#444; border-radius:50% 0%; }
 .box-product > .flexslider.style1 ul li .slide-inner{background:#f3f3f4; padding:5px; margin:0 5px; border:0px none;}
 .box-product > .flexslider.style1 ul li .slide-inner:hover{border:0px none; box-shadow:0px 0px 10px  rgba(0, 0, 0, 0.1) inset;}
@@ -413,7 +413,7 @@ a.wishlist:hover { color:#256BA7; }
 .product-grid.style1 .rating{position:absolute; top:0; right:5px; padding:0 3px; background:#eee; display:none;}
 .product-grid.style1 > div:hover .rating{display:block;}
 .product-grid.style1 .cart{float:right; }
-.product-grid.style1 .cart input{font-size:11px; padding:0 5px; text-indent:-9999px; background:#D45C93 url(../image/cart-icon.png) center 2px no-repeat; width:35px; height:35px; border-radius:50%;}
+.product-grid.style1 .cart input{font-size:11px; padding:0 5px; text-indent:-9999px; background:#256ba7 url(../image/cart-icon.png) center 2px no-repeat; width:35px; height:35px; border-radius:50%;}
 .product-grid.style1 .cart input:hover{background-color:#444; border-radius:50% 0%;}
 .product-grid.style1 > div{background:#f3f3f4; padding:5px; margin:0 5px 10px 5px; border:0px none;}
 .product-grid.style1 > div:hover{border:0px none; box-shadow:0px 0px 10px  rgba(0, 0, 0, 0.1) inset;}
@@ -441,7 +441,7 @@ a.wishlist:hover { color:#256BA7; }
 .product-info .price { overflow: auto; padding: 0px 5px 10px 5px; margin-bottom: 10px; font-size:18px; font-weight: bold; color: #256BA7; }
 .product-info .price-old { color: #F00; text-decoration: line-through; font-weight:normal; }
 .product-info .price-new { }
-.product-info .price-tag{background:#d45c93 url(../image/price-tag.png) left top no-repeat; display:inline-block; height:48px; padding:0 18px 0 32px; border-radius:0px 3px 3px 0px; -moz-border-radius:0px 3px 3px 0px; -webkit-border-radius:0px 3px 3px 0px; line-height:48px; color:#fff; font-size:25px; font-weight:normal;}
+.product-info .price-tag{background:#256ba7 url(../image/price-tag.png) left top no-repeat; display:inline-block; height:48px; padding:0 18px 0 32px; border-radius:0px 3px 3px 0px; -moz-border-radius:0px 3px 3px 0px; -webkit-border-radius:0px 3px 3px 0px; line-height:48px; color:#fff; font-size:25px; font-weight:normal;}
 .product-info .price-tax { font-size: 12px; font-weight: normal; color: #999; }
 .product-info .price .reward { font-size: 12px; font-weight: normal; color: #999; }
 .product-info .price .discount { font-weight: normal; font-size: 12px; color: #4D4D4D; }
@@ -548,7 +548,7 @@ a.wishlist:hover { color:#256BA7; }
 /************** Back To Top *************/
 .back-to-top{display:none;}
 .back-to-top a{ position:fixed; bottom:20px; right:20px; background:rgba(250, 250, 250, 0.5)url(../image/back-to-top.png) left top no-repeat; width:35px; height:35px;text-indent:-9999px; display:block;}
-.back-to-top a:hover { background:#D45C93 url(../image/back-to-top.png) left -35px no-repeat; }
+.back-to-top a:hover { background:#256ba7 url(../image/back-to-top.png) left -35px no-repeat; }
 
 /************************* Footer ***********************/
 #footer .part3{width:320px; float:left;}
