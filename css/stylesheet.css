@@ -11,7 +11,7 @@ body, td, th, input, textarea, select, a {font-size:12px;}
 * { margin:0; padding:0; }
 h1 {color: #222; margin-bottom:30px; font-size: 32px; font-weight: normal; text-align:center; text-rendering:optimizelegibility; font-family:Georgia, "Times New Roman", Times, serif;}
 .add-margin{margin: 45px; line-height: 90%;}
-h2 {color: #222; font-size:15px; margin-top: 0px; margin-bottom:15px; padding:3px 0px 5px 0px; border-bottom: 1px solid #ddd; text-transform: uppercase; font-weight:normal; }
+h2 {color: #222; font-size:15px; margin-top: 0px; margin-bottom:15px; padding:3px 0px 5px 0px; border-bottom: 1px solid #ddd; font-weight:normal; }
 h4 {color: #222; font-size:13px; margin-top: 0px; margin-bottom:10px; padding:3px 0px 5px 0px; font-weight:bold; }
 p {margin-top: 0px; margin-bottom: 20px; line-height:20px;}
 a, a:visited, a b { color:#222; text-decoration: none; cursor: pointer;}
@@ -23,6 +23,11 @@ input[type='text'], input[type='password'], textarea { background:#fff; border: 
 input[type='text']:focus, input[type='password']:focus, textarea:focus { border:1px solid #bbb; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 select {background:#fff; border: 1px solid #dddddd; padding:5px 2px; font-family:Georgia, "Times New Roman", Times, serif; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 label {cursor: pointer;}
+.cqu-color-dark{color: #256ba7;}
+.cqu-color-light{color: #4b85b7;}
+.h1-cqu-color-dark{color: #256ba7; text-align:left;}
+.add-margin-cqu-color-dark{margin: 45px; line-height: 90%; color: #256ba7;}
+
 
 /********** layout **********/
 .wrapper-box{max-width:1040px; margin:20px auto; background:#fff; box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2); border-top:2px solid #555555;}
@@ -129,7 +134,7 @@ label {cursor: pointer;}
 
 #menu ul { list-style: none; margin: 0; padding:0 0 0 2px;}
 #menu > ul > li { position: relative; float: left; z-index:1010; padding:0px; }
-#menu > ul > li > a { font-size:12px; color: #fff; line-height:40px; text-decoration: none; display: block; padding:0px 10px 0px 10px; z-index: 1009; position: relative; font-weight:bold; text-transform:uppercase;}
+#menu > ul > li > a { font-size:12px; color: #fff; line-height:40px; text-decoration: none; display: block; padding:0px 10px 0px 10px; z-index: 1009; position: relative; font-weight:bold; text-transform:capitalize;}
 #menu > ul > li:hover > a {color:#fff; background:#4b85b7; }
 #menu > ul > li > div { display: none; background:#fff; position:absolute; z-index:1008; padding:10px; border-top:2px solid #256BA7; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);}
 #menu > ul > li:hover > div.custom_block{display:table;}
