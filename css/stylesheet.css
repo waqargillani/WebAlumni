@@ -710,6 +710,7 @@ input[type="text"], input[type="password"], textarea { width:95%; }
 #menu > ul > li.categories > div > .column > a{font-weight:bold;}
 #menu > ul > li.categories > div > .column > div{display: none; box-shadow:none; border:none; padding:0; margin-left:20px;}
 #menu > ul > li.categories > div > .column:hover div{display: none;}
+.rightalign {float: right !important;}
 span.more{color: #c2c2c2; display: block; font-weight: bold;  position: absolute; right: 0; top:0px; width: 30px; height: 30px; line-height:30px; font-size:20px; text-align:center; cursor:pointer; background:url(../image/mplus.png) no-repeat left -50px;}
 span.more.plus{background-position:0 -80px;}
 
